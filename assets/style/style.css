@@ -1,87 +1,98 @@
 body {
-  background-color: rgb(52, 53, 58);
-  color: white;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: #1b1b1b;
+  color: whitesmoke;
 }
-h1 {
-  color: rgb(242, 190, 104);
+
+.text-nav {
+  color: rgb(53, 51, 54);
+}
+
+.btn-card {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-card:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.log-twitter {
+  color: white;
+}
+.log-facebook {
+  color: white;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.hero .btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 header {
-  border: 3px solid white;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  padding: 0 40px;
-  position: relative;
-}
-
-header .info {
-  position: absolute;
-  top: 40%;
-  left: 150px;
-}
-
-.barra {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-}
-
-.buscador {
-  display: flex;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 12px 12px;
-  border-radius: 8px;
-}
-
-.buscador input {
-  background: transparent;
-  border: none;
   color: white;
-  font-size: 14px;
-  letter-spacing: 2px;
+  text-align: center;
+  padding: 5rem 0;
 }
 
-.buscador input:focus {
-  outline: none;
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
-nav {
-  display: flex;
+.skill-header {
+  margin-bottom: 1rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  margin-left: 60px;
-  text-transform: capitalize;
-  font-size: 20px;
-  letter-spacing: 4px;
+.skills-wrapper img {
+  padding: 1.25rem;
 }
 
-nav a:hover {
-  color: rgb(242, 190, 104);
-  text-decoration: underline;
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
 }
 
-.color {
-  color: rgb(242, 192, 104);
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: inset 0 -3em 3em rgba(85, 85, 85, 0.3), 0 0 0 2px white,
+    0.3em 0.3em 1em white;
+  padding: 20px;
+  margin: 10px;
 }
 
-.color2 {
-  background-color: rgba(242, 190, 104, 0.5);
-  padding: 2px 5px;
-  color: black;
+.card-text {
+  text-align: justify;
 }
-
-main {
-  border: 3px solid white;
-  height: 50vh;
-  padding: 0 40px;
-  background: linear-gradient(45deg, blue, red);
+.container-fluid {
+  background-color: #0d6efd;
 }
